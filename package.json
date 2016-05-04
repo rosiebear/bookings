@@ -1,7 +1,7 @@
 {
-  "name": "Bookings",
+  "name": "Redux-Immutable",
   "version": "1.0.0",
-  "description": "Bookings app with React Redux and Firebase",
+  "description": "<img src=\"http://www.reactjsprogram.com/images/reactjsprogram-500.png\" width=\"250\" align=\"right\">",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
@@ -11,21 +11,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rosiebear/bookings.git"
+    "url": "git+https://github.com/ReactjsProgram/Redux-Immutable.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tyler McGinnis <tylermcginnis33@gmail.com> (http://tylermcginnis.com)",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/ReactjsProgram/Redux-Immutable/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/ReactjsProgram/Redux-Immutable#readme",
   "dependencies": {
+    "firebase": "^2.4.2",
     "react": "^15.0.1",
     "react-dom": "^15.0.1",
-    "react-redux": "^4.4.5",
+    "react-modal": "^1.2.1",
+    "react-redux": "^4.4.2",
     "react-router": "^2.0.1",
-    "redux": "^3.5.2",
+    "redux": "^3.4.0",
     "redux-thunk": "^2.0.1"
   },
   "devDependencies": {

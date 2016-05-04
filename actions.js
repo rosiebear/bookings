@@ -1,3 +1,30 @@
+// Users
+{
+  type: AUTH_USER,
+  uid,
+}
+
+{
+  type: UNAUTH_USER,
+}
+
+{
+  type: FETCHING_USER,
+}
+
+{
+  type: FETCHING_USER_FAILURE,
+  error: 'Error fetching user.',
+}
+
+{
+  type: FETCHING_USER_SUCCESS,
+  uid,
+  user,
+  timestamp,
+}
+
+
 // Ducks
 {
   type: FETCHING_DUCK,
